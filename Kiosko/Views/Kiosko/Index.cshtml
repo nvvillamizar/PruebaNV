@@ -1,0 +1,66 @@
+﻿@model List<KioskoEntidad.VKioskoEnt>
+@{
+    ViewData["Title"] = "Lista de Kioskos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    @if (TempData["mensaje"] != null)
+    {
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            @TempData["mensaje"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>Lista de Kioskos</h3>
+        </div>
+        <div class="col-sm-6">
+            <a class="btn btn-info d-block" asp-action="Edit" asp-controller="Kiosko">Registrar Kiosko</a>
+        </div>
+    </div>
+
+    <div class="row">
+        @if (Model.Count() > 0)
+        {
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <td>@Html.DisplayNameFor(model => model[0].Id)</td>
+                        <td>@Html.DisplayNameFor(model => model[0].Nombre)</td>
+                        <td>@Html.DisplayNameFor(model => model[0].Descripcion)</td>
+                        <td>@Html.DisplayNameFor(model => model[0].Estado)</td>
+                        <td>@Html.DisplayNameFor(model => model[0].Correo)</td>
+                        <td>Acciones</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Nombre</td>
+                        <td>@item.Descripcion</td>
+                        <td>@item.Estado</td>
+                        <td>@item.Correo</td>
+                        <td>
+                            <a asp-controller="Kiosko" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Editar</a>
+                            <a asp-controller="Kiosko" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-dark btn-sm" onclick="return confirm('Está seguro de eliminar el Kiosko ' +@item.Id + '?')">Eliminar</a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+
+        }
+        else
+        {
+            <p>No existen datos</p>
+        }
+    </div>
+</div>

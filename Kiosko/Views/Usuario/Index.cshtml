@@ -1,0 +1,62 @@
+﻿@model List<KioskoEntidad.UsuariosEnt>
+@{
+    ViewData["Title"] = "Lista de Usuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    @if (TempData["mensaje"] != null)
+    {
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            @TempData["mensaje"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>Lista de Usuarios</h3>
+        </div>
+        <div class="col-sm-6">
+            <a class="btn btn-info d-block" asp-action="Edit" asp-controller="Usuario">Registrar Kiosko</a>
+        </div>
+    </div>
+
+    <div class="row">
+        @if (Model.Count() > 0)
+        {
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <td>@Html.DisplayNameFor(model => model[0].IdUsuario)</td>
+                        <td>@Html.DisplayNameFor(model => model[0].Correo)</td>
+                        <td>@Html.DisplayNameFor(model => model[0].Clave)</td>
+                        <td>Acciones</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>@item.IdUsuario</td>
+                        <td>@item.Correo</td>
+                        <td>@item.Clave</td>
+                        <td>
+                            <a asp-controller="Usuario" asp-action="Edit" asp-route-id="@item.IdUsuario" class="btn btn-primary btn-sm">Editar</a>
+                            <a asp-controller="Usuario" asp-action="Delete" asp-route-id="@item.IdUsuario" class="btn btn-dark btn-sm" onclick="return confirm('Está seguro de eliminar el Usuario ' +@item.IdUsuario + '?')">Eliminar</a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+
+        }
+        else
+        {
+            <p>No existen datos</p>
+        }
+    </div>
+</div>

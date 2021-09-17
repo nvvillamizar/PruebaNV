@@ -1,0 +1,17 @@
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\obj\Debug\net5.0\KioskoNegocio.csproj.AssemblyReference.cache
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\obj\Debug\net5.0\KioskoNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\obj\Debug\net5.0\KioskoNegocio.AssemblyInfoInputs.cache
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\obj\Debug\net5.0\KioskoNegocio.AssemblyInfo.cs
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\obj\Debug\net5.0\KioskoNegocio.csproj.CoreCompileInputs.cache
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\bin\Debug\net5.0\KioskoNegocio.deps.json
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\bin\Debug\net5.0\KioskoNegocio.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\bin\Debug\net5.0\ref\KioskoNegocio.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\bin\Debug\net5.0\KioskoNegocio.pdb
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\bin\Debug\net5.0\KioskoDatos.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\bin\Debug\net5.0\KioskoEntidad.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\bin\Debug\net5.0\KioskoDatos.pdb
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\bin\Debug\net5.0\KioskoEntidad.pdb
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\obj\Debug\net5.0\KioskoNegocio.csproj.CopyComplete
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\obj\Debug\net5.0\KioskoNegocio.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\obj\Debug\net5.0\ref\KioskoNegocio.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoNegocio\obj\Debug\net5.0\KioskoNegocio.pdb

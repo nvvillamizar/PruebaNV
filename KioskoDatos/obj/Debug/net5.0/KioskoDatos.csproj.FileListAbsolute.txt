@@ -1,0 +1,15 @@
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\bin\Debug\net5.0\KioskoDatos.deps.json
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\bin\Debug\net5.0\KioskoDatos.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\bin\Debug\net5.0\ref\KioskoDatos.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\bin\Debug\net5.0\KioskoDatos.pdb
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\bin\Debug\net5.0\KioskoEntidad.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\bin\Debug\net5.0\KioskoEntidad.pdb
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\obj\Debug\net5.0\KioskoDatos.csproj.AssemblyReference.cache
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\obj\Debug\net5.0\KioskoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\obj\Debug\net5.0\KioskoDatos.AssemblyInfoInputs.cache
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\obj\Debug\net5.0\KioskoDatos.AssemblyInfo.cs
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\obj\Debug\net5.0\KioskoDatos.csproj.CoreCompileInputs.cache
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\obj\Debug\net5.0\KioskoDatos.csproj.CopyComplete
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\obj\Debug\net5.0\KioskoDatos.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\obj\Debug\net5.0\ref\KioskoDatos.dll
+C:\Users\NVillamizar\source\repos\Kiosko\KioskoDatos\obj\Debug\net5.0\KioskoDatos.pdb
